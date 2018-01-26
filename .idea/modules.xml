@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyLsh.iml" filepath="$PROJECT_DIR$/MyLsh.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyLsh.iml" filepath="$PROJECT_DIR$/MyLsh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyLsh1.iml" filepath="$PROJECT_DIR$/MyLsh1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdjtlibrary/jdjtlibrary.iml" filepath="$PROJECT_DIR$/jdjtlibrary/jdjtlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdjtlibrary/jdjtlibrary.iml" filepath="$PROJECT_DIR$/jdjtlibrary/jdjtlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdjtlibrary/jdjtlibrary.iml" filepath="$PROJECT_DIR$/jdjtlibrary/jdjtlibrary.iml" />
     </modules>

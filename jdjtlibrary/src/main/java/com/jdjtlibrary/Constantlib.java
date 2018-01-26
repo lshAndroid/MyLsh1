@@ -2,7 +2,7 @@ package com.jdjtlibrary;
 
 
 public class Constantlib {
-
+    //2018年5月
     /**
      * 1、联网方式
      * */
@@ -46,9 +46,9 @@ public class Constantlib {
     public static final String SINGER_PHOTO_BASE_URL = "http://bzmusic.ktvdaren.com/BzMusic/SingerImage/";//代码破解+名字
     //未绑定情况(结束)
     //-----------------------------------------扫码绑定房间------开始
-    public static final String BASEURLKTV="http://wx.ktvdaren.com/";
+    private static final String BASEURLKTV="http://wx.ktvdaren.com/";
     public static final String KTVROOMMSG=BASEURLKTV+"roominfo/";
-    public static final String BASEROOM="http://wx.handle.ktvdaren.com/interface/";
+    private static final String BASEROOM="http://wx.handle.ktvdaren.com/interface/";
 //    http://wx.handle.ktvdaren.com/interface/webbindroom_new.php?type=1&roomid=57284649
     public static final String KTVROOMUID=BASEROOM+"webbindroom_new.php?";
     //扫码绑定房间------结束
