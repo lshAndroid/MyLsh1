@@ -30,6 +30,7 @@
     <color name="input_black">#666666</color>
     <!--半透明-->
     <color name="glass_gray">#70bbbbbb</color>
+    <color name="glass_gray_deep">#90000000</color>
     <color name="glass_white">#70FFFFFF</color>
     <color name="glass97_white">#97FFFFFF</color>
 
