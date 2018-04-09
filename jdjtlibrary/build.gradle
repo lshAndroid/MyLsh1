@@ -41,5 +41,5 @@ dependencies {
     compile 'com.koushikdutta.async:androidasync:2.1.7'
     //socket tcp udp
     //    compile 'com.koushikdutta.async:androidasync:2.+'
-    compile files('libs/linshanghui.jar')
+
 }
