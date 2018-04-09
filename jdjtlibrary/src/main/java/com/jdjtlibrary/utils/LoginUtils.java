@@ -129,18 +129,5 @@ public class LoginUtils {
             return true;
         }
     }
-    public static boolean isSunKtvServiceIP() {
-        String infoServiceBind = MSharedPreferences.getString(MSharedPreferences.SunKTV_Service,"");
-        String infoKtvBind = MSharedPreferences.getString(MSharedPreferences.SunKTV_IP,"");
-        if (infoServiceBind==null||"".equals(infoServiceBind)){
-            return false;
-        }
-        if (infoKtvBind==null||"".equals(infoKtvBind)){
-            return false;
-        }
-        else {
-            return true;
-        }
-    }
 
 }

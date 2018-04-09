@@ -45,9 +45,6 @@ public class NetXutilsWay implements NetManager {
             }
         }
         System.out.println("RequestUrlPost:"+requestParams);
-        requestParams.setReadTimeout(30000);
-        requestParams.setConnectTimeout(30000);
-//        requestParams.setConnectTimeout(10000);
         x.http().post(requestParams, new Callback.CommonCallback<String>() {
             @Override
             public void onSuccess(String s) {
@@ -77,7 +74,6 @@ public class NetXutilsWay implements NetManager {
         }
         final RequestParams requestParams = new RequestParams(basePath);
         System.out.println("RequestUrlPost:"+requestParams);
-        requestParams.setConnectTimeout(10000);
         x.http().post(requestParams, new Callback.CommonCallback<String>() {
             @Override
             public void onSuccess(String s) {

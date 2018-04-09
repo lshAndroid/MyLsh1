@@ -35,24 +35,6 @@ public class MSharedPreferences {
     public static final String SunKTV_Update="sunshine_update";
     //----------------阳光视翰ktv(结束)----------------------
 
-    //----------------威森设备控制(开始)----------------------
-    public static final String WS_CONTROL_IP="ws_control_ip";
-    public static final String WS_CONTROL_SERIAL="ws_control_serial";
-    public static final String WS_CONFIGURE="ws_cconfigure_all";
-
-
-    public static final String XMS_CONFIGURE_FUC="xms_configure_fuc";
-    public static final String XMS_VERSION_MODEL="xms_version_model";
-    public static final String XMS_CHANNEL_STATUS="xms_channel_status";
-
-
-    public static final String WS_FILM_CONFIGURE="ws_film_configure";
-    public static final String WS_KTV_CONFIGURE="ws_ktv_configure";
-    public static final String WS_TV_CONFIGURE="ws_tv_configure";
-    public static final String WS_GAME_CONFIGURE="ws_game_configure";
-    public static final String WS_MEET_CONFIGURE="ws_meet_configure";
-    //----------------威森设备控制(结束)----------------------
-
     //---------------定军山编号(开始)------------------
     public static final String DJS_NO="djs_no";
     public static final String DJS_VOICE_Default="djs_voice_default";
