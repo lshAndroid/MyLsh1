@@ -33,7 +33,29 @@ public class Constantlib {
 
 
 
+    //----------------------页面上拉下拉加载(开始)--------------
+    public static final int LOAD_PAGE_SIZE=0;
+    //----------------------页面上拉下拉加载(结束)--------------
 
 
-
+    public static final String LSKTVbanner="http://poc.handle.ktvdaren.com/php/wxpic.php?";  //banner图片
+    public static final String LSKTVrecommand="http://kcloud.v2.service.ktvdaren.com/wxsearchservice.aspx?";
+    public static final String BASEURLKTV="http://wx.ktvdaren.com/";
+    public static final String KTVROOMMSG=BASEURLKTV+"roominfo/";
+    public static final String BASEROOM="http://wx.handle.ktvdaren.com/interface/";
+    public static final String KTVROOMUID=BASEROOM+"webbindroom_new.php?";
+    public static final String KTV_CONTROL_CHANGE=BASEROOM+"nextsong.php?";
+    public static final String KTV_CONTROL_ORIGINAL=BASEROOM+"ctoggle.php?";
+    public static final String KTV_CONTROL_PLAYSTATE=BASEROOM+"ptoggle.php?";
+    public static final String KTV_CONTROL_VOICE=BASEROOM+"mvol.php?";
+    public static final String KTV_CONTROL_MINE=BASEROOM+"mmic.php?";
+    public static final String KTV_MUSIC_Select=BASEROOM+"getktvsonglist.php?";
+    public static final String KTV_MUSIC_Singed=BASEROOM+"oversonglist.php?";
+    public static final String KTV_PLAY_Add=BASEROOM+"addsong.php?";
+    public static final String KTV_PLAY_PopMusic=BASEROOM+"songlisttop.php?";
+    //----------------pad(开始)------------
+    public static final String KTV_BASE_MUSIC="http://kcloud.v2.service.ktvdaren.com/wxsearchservice.aspx?";
+    public static final String KTV_BASE_STAR="http://kcloud.v2.service.ktvdaren.com/singerservice.aspx?";
+    public static final String SINGER_PHOTO_BASE_URL = "http://bzmusic.ktvdaren.com/BzMusic/SingerImage/";
+    //----------------pad(开始)------------
 }
